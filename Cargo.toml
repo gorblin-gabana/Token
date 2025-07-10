@@ -1,9 +1,9 @@
 [package]
-name = "spl-token"
+name = "gorb-token"
 version = "7.0.0"
-description = "Solana Program Library Token"
-authors = ["Solana Labs Maintainers <maintainers@solanalabs.com>"]
-repository = "https://github.com/solana-labs/solana-program-library"
+description = "Gorbchain Token Library"
+authors = ["Gorblin <goranon10@gmail.com>"]
+repository = "https://github.com/gorblin-gabana/Token"
 license = "Apache-2.0"
 edition = "2021"
 exclude = ["js/**"]
@@ -33,6 +33,3 @@ crate-type = ["cdylib", "lib"]
 
 [package.metadata.docs.rs]
 targets = ["x86_64-unknown-linux-gnu"]
-
-[lints]
-workspace = true
